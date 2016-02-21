@@ -1,6 +1,6 @@
 # From scratch to cli
 
-Ok, the only assumption is an installed working version of node.js and npm. If you never ever worked with node on your machine: [Learn how to install Node.js and npm here](https://docs.npmjs.com/getting-started/installing-node).
+The only prerequisite is an working version of node.js and npm installed on your machine. If you never ever worked with node on your machine: [Learn how to install Node.js and npm here](https://docs.npmjs.com/getting-started/installing-node).
 
 Let's start with an empty directory and init a new application. 
 
