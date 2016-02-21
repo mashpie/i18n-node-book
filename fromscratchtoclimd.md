@@ -19,7 +19,7 @@ $ tree -L 2
 Now add another file `index.js` and paste some code:
 
 ```js
-// any hello world should do
+// index.js
 console.log('Hello');
 ```
 
@@ -51,6 +51,8 @@ $ tree -L 2
 Ready to use i18n in your `index.js`:
 
 ```js
+// index.js
+
 // require module
 var i18n = require('i18n');
 
@@ -95,6 +97,8 @@ Now go ahead and edit the `locales/de.json` file according to:
 And switch the locale setting in your tiny little cli skript, ie. like so:
 
 ```js
+// index.js
+
 // output in default locale 
 console.log('default: ', i18n.__('Hello'));
 
